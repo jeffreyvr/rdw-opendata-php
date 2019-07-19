@@ -4,6 +4,10 @@ Simple library for getting vehicle data by license plate number.
 
 Data source: https://opendata.rdw.nl
 
+## Installation
+
+`composer require jeffreyvanrossum/rdw-opendata-php:^1.0`
+
 ## Example usage
 
 You call the static `get` method on the `RDW` class. You can pass two parameters: `license` and `data`.
