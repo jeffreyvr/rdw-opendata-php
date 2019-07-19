@@ -1,5 +1,5 @@
 {
-    "name": "jeffreyvanrossum/rdw",
+    "name": "jeffreyvanrossum/rdw-opendata-php",
     "description": "Simple RDW Open Data library for PHP.",
     "license": "MIT",
     "authors": [
