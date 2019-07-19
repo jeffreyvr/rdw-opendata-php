@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jeffreyvr/rdw-opendata-php.svg?branch=master)](https://travis-ci.org/jeffreyvr/rdw-opendata-php)
+
 # RDW Open Data
 
 Simple library for getting vehicle data by license plate number.
