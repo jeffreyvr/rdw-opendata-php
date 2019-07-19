@@ -17,6 +17,9 @@ class RDW
     {
         $client = new RDWAPI;
 
-        return $client->get($license, $data);
+        return $client->get(
+            strtoupper( str_replace('-', '', $license ) ), 
+            $data
+        );
     }
 }
