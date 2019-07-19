@@ -15,4 +15,4 @@ before_script:
   - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction
 
 script:
-  - ./vendor/bin/phpunit
+  - composer run-script test
