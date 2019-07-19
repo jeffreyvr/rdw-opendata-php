@@ -3,12 +3,10 @@ language: php
 sudo: false
 
 php:
-  - 7.1
   - 7.2
 
 env:
   matrix:
-    - COMPOSER_FLAGS="--prefer-lowest"
     - COMPOSER_FLAGS=""
 
 before_script:
